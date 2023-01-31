@@ -803,13 +803,20 @@ input, select, textarea {
 		}
 
 /* PDF */
-	#pdf {
-    width: 550px;
-    height: 500px;
-  }
+#pdf-all {
+display: flex;
+flex-direction: column;
+}
+
+#pdf-all a {
+display: flex;
+justify-content: center;
+}
+
 
 .pdf-style{
-    width: 550px;
+	display: flex;
+	flex-direction: column;
     height: 500px;
 }
 
