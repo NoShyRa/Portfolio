@@ -327,17 +327,17 @@
 			  {
 			    id: "load-pdf-CV",
 			    frameId: "pdf-CV-frame",
-			    src: "pdf/CV.pdf"
+			    src: "pdf/EXP/CV.pdf"
 			  },
 			  {
 			    id: "load-pdf-Rapport-2022",
 			    frameId: "pdf-Rapport-2022-frame",
-			    src: "pdf/Rapport_de_stage_2022.pdf"
+			    src: "pdf/EXP/Rapport_de_stage_2022.pdf"
 			  },
 			  {
 			    id: "load-pdf-Rapport-2023",
 			    frameId: "pdf-Rapport-2023-frame",
-			    src: "pdf/Rapport_de_stage_2023.pdf"
+			    src: "pdf/EXP/Rapport_de_stage_2023.pdf"
 			  }
 			];
 
@@ -350,6 +350,18 @@
 			    pdfFrame.classList.add("pdf-style");
 			  });
 			});
+
+
+		// Copy
+
+			function copyToClipboard(text) {
+			  navigator.clipboard.writeText(text).then(function() {
+			    console.log('Copying to clipboard was successful!');
+			  }, function(err) {
+			    console.error('Could not copy text: ', err);
+			  });
+			}
+
 
 
 		// Events.
