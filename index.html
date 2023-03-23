@@ -46,7 +46,8 @@
 							<ul>
 								<li><a href="#Present">Présentation</a></li>
 								<li><a href="#CV">CV</a></li>
-								<li><a href="#Rapport">Rapport de stage</a></li>
+								<li><a href="#Rapport">Rapport</a></li>
+								<li><a href="#Veille">DeepFake</a></li>
 								<li><a href="#Documentation">Documentation</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -103,6 +104,243 @@
 								</div>
 							</article>
 
+						<!-- Veille -->
+							<article id="Veille">
+								<h2 class="major">Le DeepFakes</h2>
+								<span class="image main"><img src="images/Present DF.png" alt="" /></span>
+								<p>
+Les deepfakes sont des techniques de manipulation vidéo qui permettent de créer des vidéos falsifiées à partir d'images ou de vidéos existantes. Ce phénomène a émergé il y a quelques années et est devenu une source de préoccupation croissante pour la société. Les deepfakes ont des utilisations malveillantes potentielles, notamment pour la désinformation, la manipulation politique, la fraude financière ou l'atteinte à la réputation d'une personne. Dans cette perspective, la réglementation et l'éthique sont devenues des questions importantes. Dans cet article, nous allons examiner les techniques de création de deepfakes, les méthodes de détection, les impacts sur la société, les questions éthiques et les tendances futures.
+</p>
+<h3>
+Sommaire
+</h3>
+<h4>
+<a href="#I">I. Introduction aux deepfakes</a>
+</h4>
+<h5>
+<a href="#A/I">A. Définition</a> <br>
+<a href="#B/I">B. Histoire des deepfakes</a> <br>
+<a href="#C/I">C. Utilisation des deepfakes</a>
+</h5>
+<h4>
+<a href="#II">II. Techniques de création de deepfakes</a> 
+</h4>
+<h5>
+<a href="#A/II">A. Modèles de réseaux de neurones</a> <br>
+<a href="#B/II">B. Apprentissage profond</a> <br>
+<a href="#C/II">C. Techniques d'interpolation de visage</a>
+</h5>
+<h4>
+<a href="#III">III. Détection des deepfakes </a>
+</h4>
+<h5>
+<a href="#A/III">A. Méthodes basées sur l'apprentissage automatique</a> <br>
+<a href="#B/III">B. Techniques de l'analyse spectrale</a> <br>
+<a href="#C/III">C. Techniques d'examen vidéo</a>
+</h5>
+<h4>
+<a href="#IV">IV. Impact des deepfakes </a>
+</h4>
+<h5>
+<a href="#A/IV">A. Conséquences sur la société </a><br>
+<a href="#B/IV">B. Risques pour la sécurité nationale</a> <br>
+<a href="#C/IV">C. Utilisation des deepfakes dans les médias</a>
+</h5>
+<h4>
+<a href="#V">V. Réglementation et éthique </a>
+</h4>
+<h5>
+<a href="#A/V">A. Mesures de réglementation</a> <br>
+<a href="#B/V">B. Problèmes d'éthique liés aux deepfakes</a> <br>
+<a href="#C/V">C. Responsabilité légale pour les deepfakes </a>
+</h5>
+<h4>
+<a href="#VI">VI. Futur des deepfakes </a>
+</h4>
+<h5>
+<a href="#A/VI">A. Avancées technologiques </a><br>
+<a href="#B/VI">B. Utilisations potentielles dans l'industrie</a> <br>
+<a href="#C/VI">C. Tendances et prévisions pour l'avenir</a>
+</h5>
+
+<div id="I">
+<h2>
+I. Introduction aux deepfakes
+</h2>
+<div id="A/I"><p>
+<h3>
+A. Définition
+</h3>
+Les deepfakes sont des vidéos synthétiques créées à l'aide d'algorithmes d'apprentissage automatique qui remplacent une personne ou un objet dans une vidéo par un autre, avec une grande précision. Ces vidéos sont souvent utilisées pour créer des séquences de personnes célèbres en train de dire ou de faire des choses qu'elles n'ont jamais faites. Les deepfakes ont le potentiel de nuire à la réputation d'une personne, de tromper le public ou de semer la confusion dans les informations en ligne. Ils peuvent également être utilisés à des fins humoristiques ou créatives. Il est important de comprendre comment les deepfakes sont créés et détectés afin de limiter leur utilisation malveillante.
+</p></div>
+<div id="B/I"><p>
+<h3>
+B. Histoire des deepfakes
+</h3>
+Les deepfakes ont émergé pour la première fois en 2017 grâce à l'utilisation de techniques d'apprentissage automatique pour créer des vidéos falsifiées convaincantes. Le terme "deepfake" est issu de la combinaison des mots "deep learning" et "fake". Les premiers deepfakes étaient principalement des vidéos pornographiques falsifiées, mais depuis lors, ils ont été utilisés à des fins malveillantes plus larges. Les deepfakes ont également été utilisés à des fins humoristiques, créatives ou satiriques, notamment pour imiter la voix ou l'apparence de personnalités célèbres. 
+<!--[Exemples][vdo youtube]-->
+Depuis leur apparition, les deepfakes ont suscité des préoccupations croissantes quant à leur impact potentiel sur la vie privée, la sécurité nationale et la démocratie.
+</p></div>
+<div id="C/I"><p>
+<h3>
+C. Utilisation des deepfakes
+</h3>
+Les deepfakes ont de nombreuses utilisations potentielles, notamment pour la désinformation, la manipulation politique, la fraude financière, la cybercriminalité, le harcèlement en ligne ou l'atteinte à la réputation d'une personne. Les deepfakes peuvent également être utilisés à des fins créatives, éducatives ou humoristiques, comme la création de vidéos de synthèse pour des films ou des publicités. Cependant, leur utilisation malveillante potentielle soulève des inquiétudes quant à leur impact sur la vie privée, la sécurité nationale et la démocratie. Par exemple, les deepfakes peuvent être utilisés pour tromper le public en diffusant de fausses informations, influencer les élections ou discréditer des personnalités politiques ou publiques. Il est donc important de surveiller et de réglementer l'utilisation des deepfakes pour prévenir leur utilisation abusive.
+</p></div>
+</div>
+
+
+<div id="II">
+<h2>
+II. Techniques de création de deepfakes
+</h2>
+<div id="A/II">
+<h3>
+A. Modèles de réseaux de neurones
+</h3><p>
+Les deepfakes sont créés à l'aide de réseaux de neurones profonds, également appelés réseaux de neurones artificiels, qui sont entraînés à imiter le comportement de l'activité neuronale dans le cerveau humain. Les modèles de réseaux de neurones les plus couramment utilisés pour la création de deepfakes sont les GAN (Generative Adversarial Networks), qui sont composés de deux réseaux de neurones antagonistes. Le premier réseau, appelé générateur, crée des images synthétiques, tandis que le second, appelé discriminant, tente de différencier les images synthétiques des images réelles. Au fil du temps, le générateur devient de plus en plus performant pour tromper le discriminant en créant des images synthétiques convaincantes, qui sont utilisées pour créer des deepfakes. Les modèles de réseaux de neurones utilisés pour les deepfakes sont constamment améliorés à mesure que les algorithmes d'apprentissage automatique évoluent.(schéma si possible)
+</p></div>
+<div id="B/II">
+<h3>
+B. Apprentissage profond
+</h3><p>
+L'apprentissage profond est la méthode d'entraînement des réseaux de neurones profonds utilisés pour créer des deepfakes. L'apprentissage profond utilise des réseaux de neurones à plusieurs couches pour apprendre à partir de données d'entraînement et produire des résultats précis. Dans le cas des deepfakes, les réseaux de neurones sont entraînés à reconnaître et à reproduire les caractéristiques de la voix ou de l'apparence d'une personne à partir d'un ensemble de données d'entraînement. Les algorithmes d'apprentissage profond sont constamment améliorés pour permettre une meilleure reconnaissance de la parole, de la gestuelle et des expressions faciales, ce qui conduit à des deepfakes plus sophistiqués et difficiles à détecter.
+</p></div>
+<div id="C/II">
+<h3>
+C. Techniques d'interpolation de visage
+</h3><p>
+Les techniques d'interpolation de visage sont une méthode courante utilisée pour créer des deepfakes d'apparence réaliste. Ces techniques consistent à extraire des caractéristiques faciales d'une personne et à les transférer sur une autre personne dans une vidéo ou une image. Les techniques d'interpolation de visage utilisent souvent des algorithmes de reconnaissance faciale pour identifier les caractéristiques faciales à transférer, comme les yeux, le nez, la bouche et les sourcils, puis les superposent sur le visage de la personne cible. Ces techniques peuvent également être utilisées pour modifier l'expression faciale d'une personne dans une vidéo existante, créant ainsi une vidéo de synthèse où la personne semble dire ou faire quelque chose qu'elle n'a jamais fait. Les techniques d'interpolation de visage sont souvent utilisées pour créer des deepfakes de célébrités ou de personnalités publiques dans des vidéos compromettantes ou scandaleuses.
+</p></div>
+</div>
+
+<div id="III">
+<h2>
+III. Détection des deepfakes
+</h2>
+<div id="A/III">
+<h3>
+A. Méthodes basées sur l'apprentissage automatique
+</h3><p>
+Les méthodes de détection des deepfakes basées sur l'apprentissage automatique sont des techniques qui utilisent des algorithmes d'apprentissage profond pour différencier les vidéos authentiques des vidéos falsifiées. Ces méthodes sont basées sur l'analyse de diverses caractéristiques des vidéos, telles que la texture de la peau, les mouvements oculaires, la forme du visage, etc. Les algorithmes d'apprentissage profond peuvent être formés sur des ensembles de données de vidéos authentiques et falsifiées pour apprendre à distinguer les différences subtiles entre les deux. Ces méthodes peuvent être très précises, mais peuvent également être trompées par des deepfakes de haute qualité.
+</p></div>
+<div id="B/III">
+<h3>
+B. Techniques de l'analyse spectrale
+</h3><p>
+Les techniques d'analyse spectrale utilisent des méthodes mathématiques pour étudier les propriétés spectrales des signaux audio et vidéo. Les deepfakes ont souvent des anomalies spectrales qui peuvent être détectées à l'aide de ces techniques. Par exemple, les deepfakes générés à l'aide de modèles de réseaux de neurones ont souvent des fréquences spatiales et temporelles différentes de celles des vidéos authentiques. En utilisant l'analyse spectrale, il est possible de détecter ces anomalies et d'identifier les deepfakes.
+Cependant, ces méthodes peuvent également être trompées par des deepfakes sophistiqués qui ont été conçus pour imiter les propriétés spectrales des vidéos authentiques. Par conséquent, ces techniques doivent être utilisées en combinaison avec d'autres méthodes de détection pour assurer une détection précise des deepfakes.
+</p></div>
+<div id="C/III">
+<h3>
+C. Techniques d'examen vidéo
+</h3><p>
+Les techniques d'examen vidéo impliquent une analyse approfondie des vidéos pour détecter les anomalies qui pourraient indiquer la présence de deepfakes. Ces techniques comprennent l'analyse des mouvements et des expressions faciales, l'examen de la synchronisation audio-vidéo, la vérification de la cohérence de l'éclairage et de l'arrière-plan, etc.
+Ces techniques peuvent être utilisées pour détecter des anomalies qui pourraient être difficiles à reproduire avec un deepfake, telles que des mouvements de lèvres qui ne sont pas synchronisés avec le son ou des ombres incohérentes dans l'arrière-plan. Cependant, ces techniques sont souvent basées sur des connaissances expertes et peuvent être sujettes à des erreurs et des biais.
+En résumé, les techniques d'examen vidéo peuvent être utiles pour détecter les deepfakes, mais doivent être utilisées en combinaison avec d'autres méthodes de détection pour garantir une détection précise et fiable.
+</p></div>
+</div>
+
+
+<div id="IV">
+<h2>
+IV. Impact des deepfakes 
+</h2>
+<div id="A/IV"><p>
+<h3>
+A. Conséquences sur la société
+</h3><p>
+Les deepfakes peuvent avoir des conséquences graves sur la société, car ils ont le potentiel de causer des dommages à la réputation des individus, des entreprises et même des nations. Les deepfakes peuvent être utilisés pour créer de fausses informations, des fausses nouvelles ou des vidéos compromettantes qui peuvent affecter la vie privée et la sécurité des personnes impliquées. Ils peuvent également être utilisés pour diffuser des discours haineux, de la propagande ou des messages politiques trompeurs.
+Les deepfakes peuvent également avoir un impact négatif sur la confiance du public dans les médias et les informations, en créant un climat de suspicion et de méfiance. Les conséquences de la propagation de deepfakes peuvent être difficiles à mesurer, mais peuvent avoir des répercussions sur les élections, les relations internationales et la stabilité des sociétés.
+Il est donc crucial de sensibiliser le public aux risques des deepfakes et de développer des mesures pour contrer leur propagation.
+</p></div>
+<div id="B/IV">
+<h3>
+B. Risques pour la sécurité nationale
+</h3><p>
+Les deepfakes peuvent également présenter des risques pour la sécurité nationale. Ils peuvent être utilisés pour diffuser de fausses informations et de la désinformation dans le cadre de campagnes de guerre de l'information. Les deepfakes peuvent également être utilisés pour tromper les systèmes de surveillance et les systèmes de reconnaissance faciale, permettant à des personnes non autorisées d'accéder à des zones sécurisées.
+En outre, les deepfakes peuvent être utilisés pour des activités d'espionnage et de sabotage, en créant de fausses preuves et des enregistrements audiovisuels compromettants qui peuvent être utilisés pour faire chanter des individus ou des organisations.
+Il est donc crucial de développer des moyens efficaces pour détecter et contrer les deepfakes afin de protéger la sécurité nationale et les intérêts de la nation.
+</p></div>
+<div id="C/IV">
+<h3>
+C. Utilisation des deepfakes dans les médias
+</h3><p>
+Les deepfakes peuvent également être utilisés dans les médias pour créer du contenu plus attractif et divertissant. Par exemple, les studios de cinéma peuvent utiliser les deepfakes pour remplacer les acteurs dans les scènes où les risques pour leur sécurité sont trop élevés. Les deepfakes peuvent également être utilisés pour restaurer des enregistrements vidéo endommagés ou pour améliorer la qualité d'anciennes vidéos.
+Cependant, l'utilisation des deepfakes dans les médias soulève des questions d'éthique et de responsabilité. Les deepfakes peuvent être utilisés pour diffuser de fausses informations et tromper le public. Il est donc important de développer des normes et des réglementations pour garantir que l'utilisation des deepfakes dans les médias est éthique et responsable.
+</p></div>
+</div>
+
+<div id="V">
+<h2>
+V. Réglementation et éthique
+</h2>
+<div id="A/V">
+<h3>
+A. Mesures de réglementation
+</h3><p>
+Les deepfakes soulèvent des préoccupations en matière d'éthique et de responsabilité, et il est important de mettre en place des mesures de réglementation pour garantir que les deepfakes ne sont pas utilisés de manière abusive.
+Certaines mesures de réglementation pourraient inclure l'interdiction de la création et de la diffusion de deepfakes sans consentement, ainsi que des peines plus sévères pour ceux qui utilisent des deepfakes à des fins malveillantes. Il pourrait également être nécessaire de mettre en place des systèmes de certification ou d'approbation pour les technologies de deepfake afin d'assurer leur utilisation responsable.
+Cependant, la mise en place de mesures de réglementation efficaces peut être difficile, car les deepfakes sont souvent créés et diffusés anonymement sur Internet. Il est donc important de travailler en collaboration avec les entreprises de technologie et les autorités compétentes pour élaborer des solutions viables pour réglementer les deepfakes.
+</p></div>
+<div id="B/V">
+<h3>
+B. Problèmes d'éthique liés aux deepfakes
+</h3><p>
+Les deepfakes soulèvent des questions éthiques importantes, notamment en ce qui concerne le droit à la vie privée et à la protection de l'image. Les personnes peuvent être victimes de deepfakes qui les représentent dans des situations compromettantes ou qui diffusent des informations fausses à leur sujet.
+Il est donc crucial de mettre en place des normes éthiques pour l'utilisation des deepfakes. Ces normes pourraient inclure des exigences de consentement clair pour la création et la diffusion de deepfakes, ainsi que des mécanismes de protection des droits d'auteur pour les personnes représentées dans les deepfakes.
+De plus, il est important de sensibiliser le public aux dangers des deepfakes et de leur utilisation abusive. Les médias peuvent jouer un rôle important dans la promotion d'une utilisation responsable et éthique des deepfakes en diffusant des informations précises sur le sujet.
+</p></div>
+<div id="C/V">
+<h3>
+C. Responsabilité légale pour les deepfakes 
+</h3><p>
+La question de la responsabilité légale pour les deepfakes est complexe car les deepfakes sont souvent créés et partagés anonymement sur Internet. Cependant, il est important de déterminer qui est responsable des conséquences des deepfakes malveillants.
+Les personnes qui créent des deepfakes sans le consentement des personnes représentées peuvent être tenues responsables des dommages causés. Les entreprises de technologie qui hébergent des deepfakes peuvent également être tenues responsables si elles ne prennent pas de mesures pour supprimer les deepfakes malveillants de leurs plateformes.
+Il est donc important de travailler avec les autorités compétentes pour élaborer des lois et des règlements clairs sur la responsabilité légale pour les deepfakes. Cela pourrait inclure des peines plus sévères pour les auteurs de deepfakes malveillants, ainsi que des réglementations pour les entreprises de technologie sur leur responsabilité à l'égard des deepfakes hébergés sur leurs plateformes.
+</p></div>
+</div>
+
+
+
+<div id="VI">
+<h2>
+VI. Futur des deepfakes 
+</h2>
+<div id="A/VI">
+<h3>
+A. Avancées technologiques
+</h3>
+<p>
+Les avancées technologiques continuent d'améliorer la qualité et la rapidité de création de deepfakes. Par exemple, les réseaux de neurones générateurs adversaires (GAN) sont de plus en plus utilisés pour créer des deepfakes plus réalistes. Les GAN permettent aux créateurs de deepfakes de créer des visages qui ont l'air plus naturels et réalistes.
+De plus, la technologie de deep learning continue de progresser, permettant de créer des deepfakes plus sophistiqués. Les algorithmes de deep learning sont capables de créer des modèles de voix et de gestes plus réalistes, ce qui rend les deepfakes plus difficiles à détecter.
+Ces avancées technologiques soulèvent des préoccupations quant à l'utilisation future des deepfakes. Il est donc crucial de continuer à développer des méthodes de détection de deepfakes avancées pour contrer les deepfakes malveillants qui peuvent être utilisés pour tromper le public ou causer des dommages.
+</p></div>
+<div id="B/VI">
+<h3>
+B. Utilisations potentielles dans l'industrie
+</h3><p>
+Les deepfakes ont le potentiel d'être utilisés dans diverses industries, telles que le cinéma, la publicité, la formation et l'éducation.
+Dans l'industrie cinématographique, les deepfakes peuvent être utilisés pour créer des personnages numériques plus réalistes et pour recréer des scènes historiques. De plus, les deepfakes peuvent être utilisés pour remplacer des acteurs existants par des versions numériques plus jeunes ou pour ajouter des effets spéciaux plus réalistes.
+Dans l'industrie publicitaire, les deepfakes peuvent être utilisés pour créer des publicités plus personnalisées et ciblées. Les publicités peuvent être adaptées en temps réel pour cibler des groupes spécifiques en utilisant des avatars numériques créés à partir de données d'utilisateurs.
+Dans le domaine de la formation et de l'éducation, les deepfakes peuvent être utilisés pour créer des simulations plus réalistes. Par exemple, les deepfakes peuvent être utilisés pour simuler des scénarios d'entretien d'embauche ou pour simuler des conversations difficiles en langue étrangère.
+Cependant, il est important de considérer les implications éthiques de l'utilisation de deepfakes dans l'industrie, notamment en ce qui concerne le consentement des personnes représentées dans les deepfakes et la propagation de désinformation.
+</p></div>
+<div id="C/VI">
+<h3>
+C. Tendances et prévisions pour l'avenir
+</h3><p>
+Les deepfakes ont été un sujet de préoccupation croissant au cours des dernières années, et les prévisions pour leur avenir sont à la fois fascinantes et inquiétantes.
+D'une part, les avancées technologiques dans le domaine de l'apprentissage en profondeur ont permis une création de deepfakes de plus en plus réaliste, avec une précision et une efficacité améliorées. Cela signifie que les deepfakes pourraient potentiellement être utilisés à des fins malveillantes telles que la désinformation, le chantage et la fraude.
+D'autre part, des chercheurs travaillent également sur des techniques de détection améliorées pour identifier et neutraliser les deepfakes avant qu'ils ne causent des dommages importants. Des collaborations entre l'industrie, les gouvernements et les universités pourraient également conduire à des efforts de réglementation plus solides pour prévenir l'utilisation abusive des deepfakes.
+En fin de compte, l'avenir des deepfakes dépendra de la manière dont les sociétés et les gouvernements décident de les utiliser et de les réglementer. Les deepfakes ont le potentiel de révolutionner diverses industries, mais ils doivent être utilisés de manière éthique et responsable pour éviter les conséquences négatives.
+</p></div>
+</div>
+
+
+
+							</article>
+
 						<!-- Documentation -->
 							<article id="Documentation">
 								<h2 class="major">Documentation</h2>
@@ -120,7 +358,6 @@
 							    <a href="pdf/DOC/Linux Serveur Apache.pdf" target="_blank"><div class="search-tab">Linux Serveur Apache </div></a> 
 
 							    <a href="pdf/DOC/Linux Serveur Messagerie.pdf" target="_blank"><div class="search-tab">Linux Serveur Messagerie </div></a>
-
 
 							    <a href="pdf/DOC/Linux Squid_Squidguard (proxy).pdf" target="_blank"><div class="search-tab">Linux Squid/Squidguard (proxy)</div></a>
 
